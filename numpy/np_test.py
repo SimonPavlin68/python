@@ -7,6 +7,7 @@ b = np.arange(0,10)
 print(b)
 print(b[5])
 print(b[-1])
+print(b[2:7])
 
 c = np.ones(5)
 print(c)
