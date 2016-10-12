@@ -1,2 +1,2 @@
 ## Krneki ##
-text
+en tekst
