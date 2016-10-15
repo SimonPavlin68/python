@@ -8,6 +8,6 @@ plt.plot(t, zvizg)
 plt.xlim(1, 10)
 plt.ylim(-2, 2)
 plt.title('Žvižg')
-#plt.show()
+plt.show()
 
-display(Audio(data=zvizg, rate=44000))
+#display(Audio(data=zvizg, rate=44000))

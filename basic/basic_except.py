@@ -12,6 +12,6 @@ try:
     for i in cifre:
         print(i)
         if(i == 3):
-            raise Exception('Dvignjena izjema')
+            raise Exception('Vržena izjema')
 except Exception as e:
     print('Ujeta izjema: ', str(e))
