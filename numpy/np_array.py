@@ -3,8 +3,8 @@ import numpy as np
 a = [0, 1, 2, 3, 4, 5]
 b = np.asarray(a)
 
-print('list  a = ', a)
-print('numpy b = ', b)
+print('list  a = ', a, type(a))
+print('numpy b = ', b, type(b))
 
 print('2 * a =   ', 3*a)
 print('2 * b =   ', 3*b)

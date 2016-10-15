@@ -16,5 +16,10 @@ def povrsina(dolzina = 5, sirina = 5):
 print('Ploščina je: {0}'.format(povrsina(3, 4)))
 print('Ploščina je: {0}'.format(povrsina(3)))
 print('Ploščina je: {0}'.format(povrsina()))
+print()
 print('Ploščina je: {0}'.format(povrsina(sirina = 6)))
 print('Ploščina je: {0}'.format(povrsina(sirina = 6, dolzina = 6)))
+
+print('--- anonimna funkcija/izraz: lambda ---')
+f = lambda x: x*x
+print(f(7))
