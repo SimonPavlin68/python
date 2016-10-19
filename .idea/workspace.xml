@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5730931f-14a3-4180-b5fd-04eeef92bda5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sympy/sym_expand.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sympy/sym_first.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python.iml" afterPath="$PROJECT_DIR$/.idea/python.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/basic_except.py" afterPath="$PROJECT_DIR$/basic/basic_except.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_test.py" afterPath="$PROJECT_DIR$/my_test.py" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -491,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476556490510</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="sobota">
+      <created>1476871961148</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1476871961148</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
