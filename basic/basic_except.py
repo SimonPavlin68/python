@@ -3,8 +3,8 @@ cifre = [1, 2, 3, 0, 4]
 try:
     for i in cifre:
         print(1/i)
-except ZeroDivisionError:
-    print('nea gre')
+except ZeroDivisionError as e:
+    print('nea gre:', str(e))
 except:
     print('except')
 
