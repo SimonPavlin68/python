@@ -19,3 +19,5 @@ sym.plot(x**3 - x**2 + x, (x, -3, 3))
 
 #s = sym.solve([x+y-1, x-y-1], [x,y])
 #print(s)
+
+sym.plot(sym.sin(x**2), 0.5, (x, -sym.pi, sym.pi));
