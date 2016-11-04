@@ -4,6 +4,7 @@ import math
 class Pravokotnik:
 
     def __init__(self, a, b):
+        # konstruktor
         self.sirina = a
         self.visina = b
 
@@ -26,4 +27,8 @@ class Pravokotnik:
         return self.sirina == self.visina
 
     def izpis(self):
-        return 'Pravokotnik: širina = {0}, višina = {1}'.format(self.sirina, self.visina)
+        if self.sirina == self.visina:
+            return 'Kvadrat: stranica = {0}'.format(self.sirina)
+        else:
+            return 'Pravokotnik: širina = {0}, višina = {1}'.format(self.sirina, self.visina)
+

@@ -3,16 +3,17 @@ import sympy as sym
 sym.init_printing()
 
 x, y, k = sym.symbols('x y k')
+f1 = (x+1)*(x+2)*(x+3)
+f1
 
-f = (x+1)*(x+2)*(x+3)
-
-ex = sym.expand(f)
+ex = sym.expand(f1)
 print(ex)
 
-#print(ex.coeff(x))
-
 a, b = sym.symbols('a b')
-print(sym.expand(sym.sin(a+b), trig=True))
+f2 = sym.sin(a+b)
+print(f2)
+print(sym.expand(f2, trig=True))
 
-f = (x+1)*(x+1)*(x+3)
-print(sym.simplify(f))
+f3 = (x+1)*(x+1)*(x+3)
+print(f3)
+print(sym.simplify(f3))
