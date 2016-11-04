@@ -4,7 +4,7 @@ import numpy as np
 def slika(amplituda = 1, fr = 10, faza = 0, dusenje = 0.):
     t = np.linspace(0, 1 , 200)
     f = amplituda * np.sin(2*np.pi*fr*t - faza) * np.exp(-dusenje*2*np.pi*fr*t)
-    plt.plot(t, f, 'r', linewidth = 2, label='sinus')
+    plt.plot(t, f, 'r', linewidth = 2, label='$sin(\\alpha)$')
 
     plt.ylim(-5, 5)
     plt.title('podpora za LaTeX: $t^2$, $\\sqrt{\\frac{a}{b}}$, $E=mc^2$, $sin(\\alpha)$')

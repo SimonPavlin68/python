@@ -2,6 +2,8 @@ import sympy as sym
 import numpy as np
 import matplotlib.pyplot as plt
 
+sym.init_printing()
+
 x = sym.symbols('x')
 
 f1 = sym.sin(x)/x
