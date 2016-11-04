@@ -9,3 +9,6 @@ p1.extend(p2)
 # Display the modified plot object.
 p1.show()
 
+f = -x**2 +3*x -4
+sym.plot(f)
+
