@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5730931f-14a3-4180-b5fd-04eeef92bda5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/CetrtinaKroga.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/kvadrat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sympy/sym_latex.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sympy/sym_subs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vaja4.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sympy/sym_first.py" afterPath="$PROJECT_DIR$/sympy/sym_plot.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/basic_class.py" afterPath="$PROJECT_DIR$/basic/basic_class.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/pravokotnik.py" afterPath="$PROJECT_DIR$/classes/pravokotnik.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sympy/sym_expand.py" afterPath="$PROJECT_DIR$/sympy/sym_expand.py" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -205,6 +196,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sympy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -558,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476871979933</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="petek 4.11.2016">
+      <created>1478240152480</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1478240152480</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -611,7 +623,8 @@
     <MESSAGE value="nove datoteke" />
     <MESSAGE value="sobota" />
     <MESSAGE value="sreda" />
-    <option name="LAST_COMMIT_MESSAGE" value="sreda" />
+    <MESSAGE value="petek 4.11.2016" />
+    <option name="LAST_COMMIT_MESSAGE" value="petek 4.11.2016" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
