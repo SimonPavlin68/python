@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5730931f-14a3-4180-b5fd-04eeef92bda5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misc/sym_krog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misc/sym_posevni_met.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sympy/sym_Eq.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sympy/sym_taylor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python.iml" afterPath="$PROJECT_DIR$/.idea/python.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sympy/sym_solve.py" afterPath="$PROJECT_DIR$/sympy/sym_solve.py" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478240299236</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ppon 7.11.2016">
+      <created>1478496004560</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1478496004561</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -667,7 +667,8 @@
     <MESSAGE value="sobota" />
     <MESSAGE value="sreda" />
     <MESSAGE value="petek 4.11.2016" />
-    <option name="LAST_COMMIT_MESSAGE" value="petek 4.11.2016" />
+    <MESSAGE value="ppon 7.11.2016" />
+    <option name="LAST_COMMIT_MESSAGE" value="ppon 7.11.2016" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
