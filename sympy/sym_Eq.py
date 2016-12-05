@@ -3,9 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 g = 9.81
-v0 = 70
+v0 = 50
 l = 50
-alpha = np.deg2rad(-15)
+alpha = np.deg2rad(15)
 
 print('x', l*sym.cos(alpha), 'y', l*sym.sin(alpha))
 
