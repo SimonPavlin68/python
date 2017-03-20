@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5730931f-14a3-4180-b5fd-04eeef92bda5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plot/date.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pygame/circle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pygame/grid.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pygame/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scipy/seminar-1.1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scipy/seminar-backup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scipy/seminar.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scipy/seminar_drugidel-1.0.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scipy/vaja9-b.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scipy/vaja9-x.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scipy/vaja9.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scipy/roots.py" afterPath="$PROJECT_DIR$/scipy/roots.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sympy/sym_diff.py" afterPath="$PROJECT_DIR$/sympy/sym_diff.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sympy/sym_subs.py" afterPath="$PROJECT_DIR$/sympy/sym_subs.py" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -691,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480913913005</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="pon 7.11.2016">
+      <created>1489987543377</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1489987543377</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
