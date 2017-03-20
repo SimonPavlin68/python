@@ -16,7 +16,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 screen.fill(WHITE)
 
 counter = 0
-ladja = np.
+#ladja = np.
 
 def init():
     for i in range(0, WIDTH, STEP):
