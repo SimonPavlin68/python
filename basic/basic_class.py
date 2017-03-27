@@ -1,4 +1,4 @@
-from python.classes.pravokotnik import Pravokotnik
+from classes.pravokotnik import Pravokotnik
 #from python.classes.CetrtinaKroga import CetrtinaKroga
 
 p = Pravokotnik(3,4)
