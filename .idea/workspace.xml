@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5730931f-14a3-4180-b5fd-04eeef92bda5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pygame/first.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pygame/opengl/cube-wood.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pygame/opengl/test.py" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pygame/opengl/pyramide-rotate.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python.iml" afterPath="$PROJECT_DIR$/.idea/python.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pygame/first.py" afterPath="$PROJECT_DIR$/pygame/first.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pygame/image.py" afterPath="$PROJECT_DIR$/pygame/image.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pygame/opengl/3d.py" afterPath="$PROJECT_DIR$/pygame/opengl/3d.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pygame/opengl/cube-camera.py" afterPath="$PROJECT_DIR$/pygame/opengl/cube-camera.py" />
@@ -61,8 +59,8 @@
       <file leaf-file-name="cube-rotate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pygame/opengl/cube-rotate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="24" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -80,17 +78,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="first.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="first.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pygame/first.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="image.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pygame/image.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -164,13 +162,13 @@
         <option value="$PROJECT_DIR$/pygame/boat.py" />
         <option value="$PROJECT_DIR$/pygame/grid.py" />
         <option value="$PROJECT_DIR$/pygame/opengl/cube-wood.py" />
-        <option value="$PROJECT_DIR$/pygame/opengl/cube-rotate.py" />
         <option value="$PROJECT_DIR$/pygame/opengl/3d.py" />
         <option value="$PROJECT_DIR$/pygame/opengl/cube-camera.py" />
         <option value="$PROJECT_DIR$/pygame/opengl/test.py" />
         <option value="$PROJECT_DIR$/classes/pygame/image.py" />
         <option value="$PROJECT_DIR$/pygame/opengl/first.py" />
         <option value="$PROJECT_DIR$/pygame/image.py" />
+        <option value="$PROJECT_DIR$/pygame/opengl/cube-rotate.py" />
         <option value="$PROJECT_DIR$/pygame/first.py" />
       </list>
     </option>
@@ -675,7 +673,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491397235409</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ppon 7.11.2016">
+      <created>1491397266854</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1491397266854</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -689,9 +694,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="227" width="1678" height="714" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21901324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21901324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1064,10 +1069,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pygame/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pygame/opengl/cube-rotate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="24" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -1076,19 +1091,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pygame/first.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pygame/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ y = HEIGHT * 0.5
 
 def pic(x,y):
     img = pygame.image.load("angry.png")
-    gameDisplay.blit(img,(x,y))
+    gameDisplay.blit(img,(x-img.get_width()/2,y-img.get_height()/2))
 
 while not crashed:
     for event in pygame.event.get():
