@@ -93,6 +93,8 @@ def main():
 
     clock = pygame.time.Clock()
 
+    translate = False
+
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -111,13 +113,17 @@ def main():
                     glTranslatef(0, -1, 0)
 
             if event.type == pygame.MOUSEBUTTONDOWN:
+                if event.button == 1:
+                    translate = not translate
                 if event.button == 4: #wheel in
                     glTranslatef(0, 0, 1.0)
-
                 if event.button == 5: #wheel out
                     glTranslatef(0, 0, -1.0)
 
         #glRotatef(1, 1, 1, 1) # angle, x, y, z
+        if translate:
+            glTranslatef(0, 0, -0.05)
+            glRotatef(1, 0, 0, 1)  # angle, x, y, z
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
         glClearColor(1.0, 1.0, 1.0, 1.0);
         cube()

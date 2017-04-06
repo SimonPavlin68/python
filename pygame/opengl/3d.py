@@ -25,9 +25,14 @@ def initGL(caption):
     #    eye  x, y, z
     #gluLookAt(0, 0, 0, 0, 0, -100, 0, 1, 0)
 
+def transformation(position, scale, ang):
+    glTranslatef(position[0], position[1], position[2])
+    glRotate(ang, True, True, True)
+    glScale(scale, scale, scale)
 
-def cube(angle):
-    glRotate(angle, True, True, True)
+def cube(position, scale, ang):
+    glPushMatrix()
+    transformation(position, scale, ang)
     glBegin(GL_QUADS)  # Begin drawing the color cube with 6 quads
     # Top face (y = 1)
     # Define vertices in counter-clockwise (CCW) order with normal pointing out
@@ -67,10 +72,12 @@ def cube(angle):
     glVertex3f(1, -1, 1)
     glVertex3f(1, -1, -1)
     glEnd()  # End of drawing color-cube
+    glPopMatrix()
 
 
-def pyramid(angle):
-    glRotate(angle, True, True, True)
+def pyramid(position, scale, ang):
+    glPushMatrix()
+    transformation(position, scale, ang)
     glBegin(GL_QUADS)  # Begin drawing the pyramid with 4 triangles
     # Bottom face (y = -11)
     glColor3f(1, 1, 0)  # Yellow
@@ -101,6 +108,7 @@ def pyramid(angle):
     glVertex3f(-1, -1, -1)
     glVertex3f(-1, -1, 1)
     glEnd()  # Done drawing the pyramid
+    glPopMatrix()
 
 
 def main():
@@ -109,8 +117,7 @@ def main():
 
     glTranslatef(0, 0, -10)
 
-    cubeAngle = 0;
-    pyramidAngle = 0;
+    angle = 0;
 
     while True:
         for event in pygame.event.get():
@@ -120,18 +127,16 @@ def main():
 
         glClearColor(1, 1, 1, 1)
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)  # Clear color and depth buffers
-        glPushMatrix()
-        glTranslatef(2, 0, 0)
-        cube(cubeAngle)
-        cubeAngle -= 1.1
-        glPopMatrix()
-        glPushMatrix()
-        glTranslatef(-2, 0, 0)
-        pyramid(pyramidAngle)
-        pyramidAngle += 1
-        glPopMatrix()
+
+        cube((0, 2, 0), 0.5, angle*-1)
+        cube((2, 0, 0), 1, angle*.7)
+        cube((0, 0, 0), 0.3, angle)
+        pyramid((-2, 0, 0), 1, angle)
+        pyramid((0, -2, 0), 0.7, angle*-1.5)
+        angle += 1
+
         glRotate(1, True, True, True)
         pygame.display.flip()
-        clock.tick(30)
+        clock.tick(60)
 
 main()
