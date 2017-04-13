@@ -12,6 +12,7 @@ WHITE = (255, 255, 255)
 pygame.init()
 gameDisplay = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("first")
+
 clock = pygame.time.Clock()
 crashed = False
 
