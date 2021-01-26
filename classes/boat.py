@@ -20,7 +20,7 @@ class Boat:
                     pygame.draw.rect(screen, RED, [c[0] * STEP, c[1] * STEP, STEP, STEP])
                     pygame.display.update()
                     pygame.mixer.init()
-                    sound = pygame.mixer.Sound("Flashbang.wav")
+                    sound = pygame.mixer.Sound("../pygame/audio/Flashbang.wav")
                     sound.play()
                 if(c[2]) == 0:
                     nothit = True

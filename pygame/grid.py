@@ -80,7 +80,7 @@ def hit(mx, my):
     if(Matrix[y][x] == 0):
         pygame.draw.rect(screen, BLUE, [x * STEP, y * STEP, STEP, STEP])
         pygame.display.update()
-        playsound("Splash.wav")
+        playsound("audio/Splash.wav")
     return False
 
 def gameover():
